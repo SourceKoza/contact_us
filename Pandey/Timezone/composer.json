@@ -1,0 +1,14 @@
+{
+    "name": "Pandey/Timezone",
+    "description": "\"my first package\"",
+    "type": "library",
+    "license": "min",
+    "authors": [
+        {
+            "name": "ramesh",
+            "email": "ramesh@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
