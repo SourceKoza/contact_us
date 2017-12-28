@@ -1,0 +1,25 @@
+{
+    "name": "source-koza/image-slider",
+    
+    "description": "Contact Us form For laravel",
+    "keywords": ["Contact frome","contact us laravel package"],
+    "license": "General",
+    "type":"project",
+    "authors": [
+        {
+            "name": "Ramesh Pandey",
+            "email": "rameshkpandey1889@gmail.com",
+            "role": "Developer"
+        }
+    ],
+     "stability": "stable",
+     "prefer-stable": "true",
+      "suggest": {
+        "source-koza/contact_us": "Allows add contact us form in your project just in minute ",
+        "ext-xml": "No Extra Need"
+    }
+    
+    
+    
+    
+}
