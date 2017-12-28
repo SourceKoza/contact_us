@@ -1,19 +1,42 @@
 {
-    "name": "source-koza/contact-us",
     
-    "description": "Contact Us form For laravel",
-    "keywords": ["Contact frome","contact us laravel package"],
+    
+     "name": "source-koza/contact-us",
+    "description": "Laravel contact-us provides an expressive, fluent interface to contact form for your projectsubscription billing services.",
+    "keywords": ["laravel", "conact", "form"],
     "license": "General",
-    "type":"project",
-    "authors": [
+    
+ "authors": [
         {
             "name": "Ramesh Pandey",
             "email": "rameshkpandey1889@gmail.com",
             "role": "Developer"
         }
     ],
-     "stability": "stable",
-     "prefer-stable": "true",
+    "autoload": {
+        "psr-4": {
+            "Pandey\\Timezone\\": "packages/Pandey/Timezone/src"
+        }
+    },
+
+    "extra": {
+        "branch-alias": {
+            "dev-master": "8.0-dev"
+        },
+        "laravel": {
+            "providers": [
+                "Pandey\Timezone\TimezonesServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+    
+   
+    
       "suggest": {
         "source-koza/contact_us": "Allows add contact us form in your project just in minute ",
         "ext-xml": "No Extra Need"
